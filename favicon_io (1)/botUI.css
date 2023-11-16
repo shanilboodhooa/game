@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    position: absolute;
+    top: 0px;
+}
+
+body{
+   background-image: url("");
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+   
+    position: relative;
+    top: 100px;
+    right: 150;
+    width: 80vw;
+    height: 80vh;
+    
+    border: 2px solid blue;
+    border-radius: 15px;
+}

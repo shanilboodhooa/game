@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-image: url("simple-pictures-0m4vk4xbx09p1gg7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+.UI{
+    position: absolute;
+    bottom: 300px;
+    margin-left: 6px;
+    padding: 25px;
+    word-spacing: 10px;
+   font: 1em sans-serif;
+}
+#passplay{
+    position: relative;
+
+    display: flex;
+    background-color: blue; /* Neon green background color */
+    box-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff, 0 0 30px #00aaff;
+    border: 2px solid blue;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 323px;
+    height: 60px;
+    font-size: x-large;
+    
+}
+#comp{
+    position: relative;
+    top: 18px;
+    display: flex;
+   /* background-color: aqua;
+    border: 2px solid blue;*/
+    background-color: blue; /* Neon green background color */
+    box-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff, 0 0 30px #00aaff;
+    border: 2px solid blue;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 323px;
+    height: 60px;
+    font-size: x-large;
+
+}
+#online{
+    position: relative;
+    top: 30px;
+    display: flex;
+    background-color: blue; /* Neon green background color */
+    box-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff, 0 0 30px #00aaff;
+    border: 2px solid blue;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 323px;
+    height: 60px;
+    font-size: x-large;
+}
+header{
+    display: flex;
+    
+   
+    width: 100vw;
+    height: 39px;
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+    align-items: center;
+    background-color: #00aaff; /* Neon green background color */
+    box-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff, 0 0 30px #00aaff;
+    border: 2px solid blue;
+}
+li{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 15px;
+    font-size: larger;
+    left: 8px;
+   
+}
+
+#comp:hover{
+    color: green;
+    background-color: #00ff00; /* Neon green background color */
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    border-radius: 9px;
+    border: 2px solid green;
+}
+#passplay:hover{ 
+    color: green;
+    background-color: #00ff00; /* Neon green background color */
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    border-radius: 9px;
+    border: 2px solid green;
+
+}
+#online:hover{
+    color: green;
+    background-color: #00ff00; /* Neon green background color */
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    border-radius: 9px;
+    border: 2px solid green;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+.title{
+    position: relative;
+    top: 30px;
+    font-size: 4em;
+    font-family: 'Caveat', cursive;
+    left: 15px;
+    color: white;
+}
+
+@media(orientation: portrait) {
+    body {
+        background-image: url("images.jpg") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: black;
+    }
+}

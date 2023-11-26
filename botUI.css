@@ -42,10 +42,20 @@ body{
    /* justify-content: center;*/
     align-items: center;
 }
+#bot3{
+
+    left: 0;
+    display: flex;
+   /* justify-content: center;*/
+    align-items: center;
+}
 #bot:hover{
     background-color: blue;
 }
 #bot2:hover{
+    background-color: blue;
+}
+#bot3:hover{
     background-color: blue;
 }
 #Home{

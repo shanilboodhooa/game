@@ -7,6 +7,9 @@ bot.addEventListener("click", ()=>{
 bot2.addEventListener("click", ()=>{
     location.href = "bot2.html"
 })
+bot3.addEventListener("click", ()=>{
+    location.href = "bot3.html"
+})
 Home.addEventListener("click", ()=>{
     location.href = "index.html"
 })

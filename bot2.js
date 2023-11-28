@@ -42,12 +42,9 @@ wins.forEach(e =>{
     */
 
 const checkwin = () =>{
-    
-    
-    
-    //first colume
-    if(botA.innerText === "X" && botD.innerText === "X" && botG.innerText === "X"){
-        intu.innerText =  " YOU WIN";
+
+    if(botA.innerText === botD.innerText && botD.innerText === botG.innerText && botA.innerText === botG.innerText && botA.innerText !== ""){
+        intu.innerText =  botA.innerText + " WIN";
         document.querySelector(".line").style.transform = "translate(-5vw, 15vw) rotate(90deg)"
         document.querySelector(".line").style.width = "22vw"
         if(window.matchMedia("(orientation: portrait)").matches){
@@ -58,8 +55,8 @@ const checkwin = () =>{
     
     }
     //secound colum
-    if(botB.innerText === "X" && botE.innerText === "X" && botH.innerText === "X"){
-        intu.innerText =  " YOU WIN";
+    if(botB.innerText === botE.innerText && botE.innerText === botH.innerText && botB.innerText === botH.innerText && botB.innerText !== ""){
+        intu.innerText =  botB.innerText + " WIN";
         document.querySelector(".line").style.transform = "translate(5vw, 15vw) rotate(90deg)"
         document.querySelector(".line").style.width = "22vw"
         if(window.matchMedia("(orientation: portrait)").matches){
@@ -70,7 +67,7 @@ const checkwin = () =>{
     
     //three colume
     if(botC.innerText === botF.innerText && botF.innerText === botI.innerText && botC.innerText === botI.innerText && botC.innerText !== ""){
-        intu.innerText =  " YOU WIN";
+        intu.innerText =  botC.innerText + " WIN";
         document.querySelector(".line").style.transform = "translate(15vw, 15vw) rotate(90deg)"
         document.querySelector(".line").style.width = "22vw"
         if(window.matchMedia("(orientation: portrait)").matches){
@@ -81,8 +78,8 @@ const checkwin = () =>{
     }
     //ROW
     //first row
-    if(botA.innerText === "X" && botB.innerText === "X" && botC.innerText === "X"){
-        intu.innerText =  " YOU WIN";
+    if(botA.innerText === botB.innerText && botB.innerText === botC.innerText && botA.innerText === botC.innerText && botA.innerText !== ""){
+        intu.innerText = botA.innerText + " WIN";
         document.querySelector(".line").style.transform = "translate(5vw, 5vw) rotate(0deg)"
         document.querySelector(".line").style.width = "22vw"
         if(window.matchMedia("(orientation: portrait)").matches){
@@ -93,8 +90,8 @@ const checkwin = () =>{
     }
    
     //secound row
-    if(botD.innerText === "X" && botE.innerText === "X" && botF.innerText === "X"){
-        intu.innerText =  " YOU WIN";
+    if(botD.innerText === botE.innerText && botE.innerText === botF.innerText && botD.innerText === botF.innerText && botD.innerText !== ""){
+        intu.innerText =  botD.innerText + " WIN";
         document.querySelector(".line").style.transform = `translate(5vw, 15vw) rotate(0deg)`
         document.querySelector(".line").style.width = "22vw"
         if(window.matchMedia("(orientation: portrait)").matches){
@@ -105,9 +102,9 @@ const checkwin = () =>{
     
     }
     //three row
-    if(botG.innerText === "X" && botH.innerText === "X" && botI.innerText === "X"){
-        intu.innerText =  " YOU WIN";
-        document.querySelector(".line").style.transform = `translate(5vw, 25vw) rotate(90deg)`
+    if(botG.innerText === botH.innerText && botH.innerText === botI.innerText && botG.innerText === botI.innerText && botG.innerText !== ""){
+        intu.innerText =  botG.innerText + " WIN";
+        document.querySelector(".line").style.transform = `translate(5vw, 25vw) rotate(0deg)`
         document.querySelector(".line").style.width = "22vw"
         if(window.matchMedia("(orientation: portrait)").matches){
             document.querySelector(".line").style.transform = `translate(8vw, 76vw) rotate(0deg)`
@@ -117,8 +114,8 @@ const checkwin = () =>{
     
     }
     //first diagonal
-    if(botA.innerText === "X" && botE.innerText === "X" && botI.innerText === "X"){
-        intu.innerText =  " YOU WIN";
+    if(botA.innerText === botE.innerText && botE.innerText === botI.innerText && botA.innerText === botI.innerText && botA.innerText !== ""){
+        intu.innerText =  botA.innerText + " WIN";
         document.querySelector(".line").style.transform = `translate(5vw, 15vw) rotate(45deg)`
         document.querySelector(".line").style.width = "22vw"
         if(window.matchMedia("(orientation: portrait)").matches){
@@ -129,8 +126,8 @@ const checkwin = () =>{
     
     }
     //secound diagonal
-    if(botC.innerText === "X" && botE.innerText === "X" && botG.innerText === "X"){
-        intu.innerText =  " YOU WIN";
+    if(botC.innerText === botE.innerText && botE.innerText === botG.innerText && botC.innerText === botG.innerText && botC.innerText !== ""){
+       intu.innerText =  botC.innerText + " WIN";
         document.querySelector(".line").style.transform = `translate(5vw, 15vw) rotate(135deg)`
         document.querySelector(".line").style.width = "22vw"
         if(window.matchMedia("(orientation: portrait)").matches){
@@ -140,6 +137,7 @@ const checkwin = () =>{
     
     
     }
+
 
     }
 

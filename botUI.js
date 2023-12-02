@@ -1,6 +1,8 @@
 let bot = document.getElementById("bot");
 let bot2 = document.getElementById("bot2");
 let Home = document.getElementById("Home");
+let bot3 = document.getElementById("bot3");
+let bot4 = document.getElementById("bot4");
 bot.addEventListener("click", ()=>{
     location.href = "compui.html"
 })

@@ -61,12 +61,16 @@ left: 1vw;
     border: 2px solid #00aaff;
     box-shadow: 0 0 20px #00aaff, 0 0 20px #00aaff, 0 0 30px #00aaff;
     font-size: 9vw;
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     cursor: pointer;
    
-}
+}/*
 .boxtext:hover{
-    /*background-color: aquamarine;*/
-}
+    background-color: aquamarine;
+}*/
 .gameinfo{
     color: white;
 

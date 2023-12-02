@@ -11,7 +11,7 @@ let botI = document.getElementById("botI");
 let intu = document.getElementById("intu");
 let Home = document.getElementById("Home");
 let gameover = new Audio("mixkit-arcade-game-over-1949.wav");
-let ding = new Audio("service-bell-ring-14610.mp3");
+let ping = new Audio("windows-xp-ding_B_major.wav");
 let turn = "X"
 let isgameover = false
 let hiddens = document.getElementById("hiddens")
@@ -72,7 +72,7 @@ element.addEventListener('click', ()=>{
         boxt.innerText = turn;
         //boxt[4].innerText = "x"?"o" : "x";
        turn =  changeturn();
-        //ding.play(); 
+        ping.play(); 
         checkwin();
     }
     if(isgameover === false){

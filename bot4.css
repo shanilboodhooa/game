@@ -1,0 +1,207 @@
+nav ul{
+    list-style-type: none;
+}
+ul li{
+    background-color: black;
+    /*background-size:50px ;*/
+    margin: 10px 0 ;
+    color: white;
+    padding: 15px;
+}
+body{
+    background-image: url('tic-tac-toe-wallpaper-preview.jpg');
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:purple;
+    
+
+}
+*{
+
+    margin: 0;
+    padding: 0;
+}
+/*body{
+    width: 100vw;
+}*/
+.boxtext{
+left: 100px;
+color: white;
+justify-content: center;
+align-items: center;
+align-self: center;
+display: flex;
+position: relative;
+left: 1vw;
+
+
+}
+/*
+.gf{
+    display: flex;
+    /*display: inline-flex;
+    justify-content: center;
+}
+*/
+.gamecontainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: transparent;
+    margin-top:25px ;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    position: relative;
+    
+
+}
+.box{
+    border: 2px solid #00aaff;
+    box-shadow: 0 0 20px #00aaff, 0 0 20px #00aaff, 0 0 30px #00aaff;
+    font-size: 9vw;
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+   
+}/*
+.boxtext:hover{
+    background-color: aquamarine;
+}*/
+.gameinfo{
+    color: white;
+
+    position: relative;
+    top: 0px;
+    flex-wrap: wrap;
+   
+
+    
+    
+}
+
+.bt{
+    border-top: 0;
+    box-shadow: none;
+}
+.bl{
+    border-left: 0;
+    box-shadow: none;
+}
+.br{
+    border-right: 0;
+    box-shadow: none;
+}
+.bb{
+    border-bottom: 0;
+    box-shadow: none;
+}
+#reset{
+    font-style: oblique;
+    font: 1em sans-serif;
+    background-color: aqua;
+    width: 54px;
+    font-size: medium;
+    border: 10px black ;
+    border-color: black;
+    border-radius: 0.1cm;
+   /* display: flex;
+    flex-wrap: wrap;
+    /*display: flex;*/
+
+
+}
+#RESET{
+    background-color: aqua;
+}
+#RESET:hover{
+    font-style: initial;
+    background-color: blue;
+    font-size: large;
+}
+.line{
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: absolute;
+    transition: width 1s ease-in-out;
+    height: 5px;
+    width: 0vw;
+    background-color: #00ff00; /* Neon green background color */
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    padding: 0px; /* Add padding to make the glow more visible */
+    /*transform: translate(10vw, 30vw) rotate(90deg);*/
+    border-radius: 9px;
+    /*transform: translate(10vw, 30vw) rotate(90deg);*/
+
+}
+@media(orientation: portrait) {
+    body {
+        background-image: url("HD-wallpaper-xo-nuke-logo-black-logo-minimal-the-weeknd-thumbnail.jpg") ;
+        background-repeat: repeat;
+        background-size: cover;
+        background-color: black;
+    }
+    .box{
+        border: 2px solid white;
+        font-size: 30vw;
+        color: antiquewhite;
+        cursor: pointer;
+    }
+    .bt{
+        border-top: 0;
+    }
+    .bl{
+        border-left: 0;
+    }
+    .br{
+        border-right: 0;
+    }
+    .bb{
+        border-bottom: 0;
+    }
+    .container{
+        display: grid;
+        grid-template-rows: repeat(3, 30vw);
+        grid-template-columns: repeat(3, 30vw);
+        
+  }
+  .gameinfo{
+   
+    color: antiquewhite;
+  }
+
+}
+
+
+#hiddens img{
+    opacity: 0;
+    transition-delay: 5s;
+    transition: ease-in;
+
+}
+#newin h1{
+    display: flex;
+
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+#Home{
+    display: inline;
+    position: relative;
+    left: 16px;
+
+    border: 2px solid blue;
+    background-color: aqua;
+    color: black;
+}
+#Home:hover{
+    background-color: blue;
+}

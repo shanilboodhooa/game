@@ -8,6 +8,7 @@ let botC = document.getElementById("botC");
 let botD = document.getElementById("botD");
 let botE = document.getElementById("botE");
 let botF = document.getElementById("botF");
+let ping = new Audio("windows-xp-ding_B_major.wav");
 let Home = document.getElementById("Home");
 //check win
 /*
@@ -154,7 +155,8 @@ element.addEventListener("click", ()=>{
     if(boxt.innerText == ""){
         boxt.innerText = "X"
     }
-    
+
+ping.play();
     let randomNumber = Math.floor(Math.random() * 8) + 1;
 
 // Log the result

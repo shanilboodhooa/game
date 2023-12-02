@@ -7,6 +7,7 @@ let botF = document.getElementById("botF");
 let botG = document.getElementById("botG");
 let botH = document.getElementById("botH");
 let botI = document.getElementById("botI");
+let ping = new Audio("windows-xp-ding_B_major.wav");
 let Home = document.getElementById("Home");
 //check win
 /*
@@ -152,7 +153,7 @@ element.addEventListener("click", ()=>{
     }
     
     const randomNumber = Math.floor(Math.random() * 8) + 1;
-
+ping.play();
 // Log the result
 console.log(randomNumber);
   

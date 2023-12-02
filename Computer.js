@@ -7,6 +7,7 @@ let botF = document.getElementById("botF");
 let botG = document.getElementById("botG");
 let botH = document.getElementById("botH");
 let botI = document.getElementById("botI");
+let ping = new Audio("windows-xp-ding_B_major.wav");
 let Home = document.getElementById("Home");
 //check win
 /*
@@ -151,7 +152,8 @@ element.addEventListener("click", ()=>{
     }
     //checkwin()
   
-   
+
+ping.play();
     //bot logic 
    setTimeout(()=>{ if(botA.innerText == "X" && botB.innerText == ""){
         botB.innerText = "O"

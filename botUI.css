@@ -49,6 +49,13 @@ body{
    /* justify-content: center;*/
     align-items: center;
 }
+#bot4{
+
+    left: 0;
+    display: flex;
+   /* justify-content: center;*/
+    align-items: center;
+}
 #bot:hover{
     background-color: blue;
 }
